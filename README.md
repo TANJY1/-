@@ -106,7 +106,7 @@ function animate(el,properties){   //properties传入的是键值对，el传入�
 
 ```
 
-![image-20201031161755405](C:\Users\tan junyu\AppData\Roaming\Typora\typora-user-images\image-20201031161755405.png)
+![Image text](https://raw.githubusercontent.com/TANJY1/CSU-wangzhifuke/master/image-20201031161755405.png)
 
 ```javascript
 function slideto(index){
