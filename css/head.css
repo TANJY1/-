@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+.header{
+	height: 110px;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	right: 0px;
+	z-index: 500;
+	background:url(../img/hd-bg1.jpg) center top;
+	no-repeat;
+	background-size: cover;
+}
+
+.header .lefttop{
+	margin-left: 50px;
+	float: left;
+}
+.header .righttop{
+	margin-right: 100px;
+	float: right;
+	line-height: 60px;
+}
+
+.headerbottom{
+	top: 53px;
+	position: fixed;
+	width: 100%;
+}
+.headerbottom .leftbottom{
+	margin-left: 50px;
+	float: left;
+	width: 500px;
+	height: 40px;
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.headerbottom .rightbottom{
+	margin-right: 100px;
+	float: right;
+	width: 500px;
+	height: 40px;
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.border li{
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.border{
+	text-align: center;
+	line-height:60px;
+	font:"微软雅黑";
+	color: white;
+	font-size: 18px;
+	border: 1px solid gainsboro;
+	border-bottom:0px;
+	border-top:0px;
+	border-left :0px;
+	padding:5px 10px;
+}
+.border1 a{
+	font: "微软雅黑" 20px;
+	color: white;
+}
+
+.border1{
+	text-align: center;
+	line-height:40px;
+	font:"微软雅黑";
+	color: white;
+	font-size: 20px;
+	border: 0px solid gainsboro;
+	border-bottom:0px;
+	border-top:0px;
+	border-left :0px;
+	padding:0px 15px;
+	width: 500px;
+	margin-top: 0px;
+	height: 40px;
+	margin-left: 20px;
+/*	float:left;*/
+}
+.border1 li{
+	float:left;
+	margin-right: 20px;
+	margin-top: 0px;
+	
+}
+
+.drop_down{
+	width:100px;
+	height:204px;
+	background-color:white;
+	display: none;
+}
+.drop_down a{
+	font: "微软雅黑" 20px;
+	color: black;
+}
+.drop_down li{
+	display: block;
+	width: 100px;
+	height: 20px;
+	padding-top: 5px;
+}
+
+/*设置超链接的格式*/
+.header span a{
+	font-family: "微软雅黑";
+	color: white;
+	text-decoration:none;
+}
+
+.header .righttop dt a {
+    display: block;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color:white;
+}
+
+.centre{
+	position:absolute;  
+    left: 50%;
+	width: 500px;
+    margin-left: -200px;
+}
+
+.header .so-button{
+	width: 60px;
+    -webkit-background-size: 25px auto;
+    background-size: 25px auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 90px;
+    background: url(../img/i-so.png) center center no-repeat;
+}
+	

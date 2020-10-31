@@ -1,0 +1,143 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.row-ql{
+	background-image: url(../img/bg-q1.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5px 10px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 33px 0px 59px;
+    overflow: hidden;
+    right:20px;
+    word-wrap:break-word;
+    word-break:break-all;
+    height:510px;
+}
+
+.wp {
+    width: 95%;
+    margin: 5px 15px;
+    margin-left: 30px;
+}
+.wp .more{
+	float: right;
+	text-align: center;
+	font-family: '微软雅黑';
+	color: #0852A2;
+	font: 24px;
+}
+
+a{
+	font-family: "微软雅黑";
+	text-decoration:none;
+	color: #0852A2;
+}
+
+.row-ql .box{
+	margin: 45px 0px 0px;
+	font:"微软雅黑";
+	font-size: 12px;
+	/*background-color: deeppink;*/
+	height: 500px;
+	
+}
+
+/*——————————————————————水平轮播————————————————————————————*/
+    .list1{
+			list-style: none;
+		}
+		.slider1{
+			width: 700px;
+			height: 400px;
+			position: absolute;		
+			overflow: hidden;	
+			margin:30px 20px;
+			}
+		.slider1 .list1{
+			position: absolute;
+		}
+		.slider1 .list1 .item1{
+			width:700px;
+			height: 400px;
+			float:left;
+		}
+		.slider1 .list1 .item1 img{
+			width: 700px;
+			height: 400px;
+			display: block;
+		}
+		.slider1 .prev1, .slider1 .next1{
+			position: absolute;
+			top:300px;
+			opacity: 0.5;
+			
+		}
+		.slider1 .next1{
+			right:0px;
+		}
+	/*	.slider .pagination{
+			display: block;
+			width: 150px;
+			margin: 0 auto;
+		}*/
+		.slider1 .pagination1 .bullet1{
+	        width: 20px;
+			height: 20px;
+			position: relative;
+			background-color: gray;
+			margin-left: 5px;
+			float: left;
+			cursor: pointer;
+			top:350px;
+			z-index: 999;  /*定义和用法z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。*/
+		 /*  text-align: center;*/
+		    line-height: 20px;
+		    
+		}
+		.focus1{
+			background-color: yellow !important;	/*!important设置优先级*/
+		}
+
+
+/*！！！！！！！！！滚动的右边！！！！！！！！！！！！！！*/
+.box .boxright{
+	float: right;
+	width: 50%;
+/*	background: pink;*/
+	margin-top: 24px;
+	border-top: 4px solid cornflowerblue;
+	margin-right: 25px;
+}
+
+.box .boxright .tablestyle{
+	margin: 15px 15px;
+	border: 0px;
+	height: 400px;
+	width: 100%;
+}
+.box .trstyle{
+	/*background-color:wheat;*/
+    height: 100px;
+    margin: 10px;
+    right: 20px;
+	padding: 20px;
+	overflow: hidden;
+}
+.box .trstyle .tdstyle{
+	width: 50%;
+	text-align:left;
+	/*background-color: white;*/
+	padding:5px 10px;
+	font-size: 15px;
+	font-family: "微软雅黑";	
+	color: darkgray;
+	
+}
+.box a{
+	font-family: "微软雅黑";
+	color: black;
+	text-decoration:none;
+}

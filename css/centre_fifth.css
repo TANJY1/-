@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.row-a3{
+	background-image: url(../img/bg-q5.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-size: cover;*/
+  /*  padding: 50px 0 363px;*/
+    overflow: hidden;
+    top: 0px;
+    height: 800px;
+}
+
+ .listbox{
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	height: 300px;
+}
+
+ .list4{
+			list-style: none;
+		}
+		.slider4{
+			margin: 0 auto;
+			margin-left: 100px;
+			width: 1300px;
+			height: 290px;
+			position: absolute;		
+			overflow: hidden;	
+			/*background-color: yellow;*/
+			}
+		.slider4 .list4{
+			position: absolute;
+		}
+		.slider4 .list4 .item4{
+			width:1300px;
+			height:290px;
+			float:left;
+		}
+		/*.slider2 .list2 .item2 img{
+			width: 1500px;
+			height: 400px;
+			display: block;
+			z-index: 999;
+		}*/
+		/*.slider2 .prev2, .slider2 .next2{
+			position: absolute;
+			top:150px;
+			
+		}*/
+		.slider4 .next4{
+			right: 0px;
+		}
+	/*	.slider .pagination{
+			display: block;
+			width: 150px;
+			margin: 0 auto;
+		}*/
+		.slider4 .pagination4 .bullet4{
+	        width: 20px;
+			height: 5px;
+			position:relative;
+			background-color: gray;
+			margin-left: 10px;
+			float: left;
+			cursor: pointer;
+			top:285px;
+			left: 605px;
+			z-index: 9999;  /*定义和用法z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。*/
+		 /*  text-align: center;*/
+		    line-height: 40px;
+		    font:25px "微软雅黑";
+		    
+		}
+		.focus4{
+			background-color:orange !important;	/*!important设置优先级*/
+		}
+		
+
+.slider4 .tablestyle4{
+	margin-top: 20px;
+	margin-left: 45px;
+/*	background-color: white;*/
+	width: 1200px;
+	height: 300px;
+}
+.slider4 .tdstyle4{
+	background-color: yellow;
+	width: 290px;
+}
+.topbefore{
+	padding: 3px;
+	margin: 20px;
+}
+.top{
+	position: relative;
+    height: 0;
+    padding-top: 98.7%;
+    border: 1px dashed #eff4fa;
+    border-radius: 50%;
+    margin-bottom: 21px;
+    overflow: hidden;
+}
+.text{
+	    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+   text-align: center;
+    transform: translateY(-50%);
+    padding: 0 10px;
+    overflow: hidden;
+}
+.pic{
+	display: block;
+	left: 27%;
+}
+.topbefore span{
+	height: 4.14em;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.38em;
+    text-align: center;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+
+/*!!!!!!!!!!!!专题网站！！！！！！！！！！！！！！！！！！*/
+.fifbottom{
+	margin-top: 30px;
+	/*background-color:#DC143C;*/
+	height: 180px;
+}
+
+.fifbottom .title{
+/*	background-color: #000000;*/
+	margin-left: 100px;
+	top: 100px;
+	text-align: center;
+	font: "微软雅黑" 25px; 
+	color: #0852A2;
+	width: 40px;
+	height: 130px;
+	float: left;
+}
+
+.fifbottom .pic{
+	float:left;
+	margin-top: 10px;
+	margin-left: 15px;
+}

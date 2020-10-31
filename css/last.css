@@ -1,0 +1,84 @@
+.last{
+	  background: url(../img/fd-bg1.png) center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 324px;
+}
+.last .first{
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 60px;
+	/*border-bottom: solid #A9A9A9;*/
+	
+}
+.last .first .wp{
+	height: 60px;
+	/*margin-left: 30px ;
+	margin-right: 30px;*/
+	width: 50%;
+	margin: 0 auto;
+	/*background-color: yellow;*/
+
+}
+/*.last .text1{
+	margin: 0 auto;
+	left: 50%;
+}*/
+.last .first span{
+	float: left;
+	font: "微软雅黑" 20px;
+	width: 120px;
+	color: white;
+	margin-left: 50px;
+	margin-top: 19px;
+}
+.last .second{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 200px;
+	margin-top: 20px;
+	border-top: solid #A9A9A9;
+	border-bottom: solid #A9A9A9;
+}
+
+.last .second .logo{
+	margin-left: 80px;
+	float:left;
+	margin-top: 20px;
+}
+
+.last .second .text1{
+	float: left;
+	margin-left: 60px;
+	margin-top: 60px;
+	background-color: 
+	
+}
+
+.last .second .text1 span{
+	font: "微软雅黑" 16px ;
+	color: white;
+    margin-right: 22px;   
+}
+
+.last .second .share{
+	float: right;
+	margin-right: 80px;
+	margin-top: 65px;
+	
+}
+
+.last .third{
+	margin-top:200px ;
+	height: 50px;
+	width: 100%;
+	background-color: #002E61;
+	text-align: center;
+	line-height: 50px;
+}
+
+.last .third .p span a{
+	font: "微软雅黑" 14px;
+	color: #80A0C2;
+	
+}
