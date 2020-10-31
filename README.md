@@ -30,7 +30,7 @@
 
 ##### 1.2CSS
 
-![image-20201030192628816](C:\Users\tan junyu\AppData\Roaming\Typora\typora-user-images\image-20201030192628816.png)
+![Image text](https://github.com/TANJY1/CSU-wangzhifuke/blob/master/image-20201030192628816.png)
 
 **注意**：一般的时候设置ul，他会从按照从上到下的顺序排放<li>,我们可以设置float:left属性实现排放在同一行
 
