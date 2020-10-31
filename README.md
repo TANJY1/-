@@ -163,7 +163,7 @@ function slideto(prev,next){
 
 ### 4.左边浮窗的实现
 
-<img src="C:\Users\tan junyu\AppData\Roaming\Typora\typora-user-images\image-20201031164918889.png" alt="image-20201031164918889" style="zoom:150%;" />
+![Image text](https://raw.githubusercontent.com/TANJY1/CSU-wangzhifuke/master/image-20201031164918889.png)
 
 
 
